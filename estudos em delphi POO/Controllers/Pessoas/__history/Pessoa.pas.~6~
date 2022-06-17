@@ -1,0 +1,10 @@
+unit Pessoa;
+
+interface
+
+type TPessoa = class()
+
+end;
+implementation
+
+end.

@@ -1,0 +1,28 @@
+unit Login.Model;
+
+interface
+uses
+   Login.Controller;
+
+type TLoginModel = class
+  private
+
+  public
+    function Logar(pLogin: TLoginController): Boolean;
+end;
+
+implementation
+
+
+{ TLoginModel }
+
+
+{ TLoginModel }
+
+function TLoginModel.Logar(pLogin: TLoginController): Boolean;
+begin
+  if (pLogin.GetUser = 'admin') and (pLogin.GetPassWord = 'admin') then
+    Result := true;
+end;
+
+end.

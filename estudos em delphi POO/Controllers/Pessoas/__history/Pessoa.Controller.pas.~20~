@@ -1,0 +1,37 @@
+unit Pessoa.Controller;
+
+interface
+
+type
+  TPessoa = class
+    private
+      FId: Integer;
+      FNome: String;
+      FTipo: String;
+      FEmail: String;
+      function GetId(): Integer;
+
+    public
+      property Id: Integer read GetId;  //Id torna-se apenas leitura, assim ficando encapsulado.
+      property Nome: String read FNome write FNome;
+      property Tipo: String read FTipo write FTipo;
+      property Email: String read FEmail write FEmail;
+      procedure CriarId(Value: Integer);
+
+  end;
+
+implementation
+
+{ TPessoa }
+
+function TPessoa.GetId: Integer;
+begin
+  Result:= FId;
+end;
+
+procedure TPessoa.CriarId(Value: Integer);
+begin
+  FId := Value*5;
+end;
+
+end.

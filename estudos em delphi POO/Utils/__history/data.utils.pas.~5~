@@ -1,0 +1,14 @@
+unit data.utils;
+
+interface
+
+uses
+  System.SysUtils;
+
+type
+  TDataUtils = class
+    function CalcularIdade(Value: String): Integer;
+  end;
+implementation
+
+end.

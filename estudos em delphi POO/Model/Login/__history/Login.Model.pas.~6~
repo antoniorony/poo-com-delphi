@@ -1,0 +1,23 @@
+unit Login.Model;
+
+interface
+type TLoginModel = class
+  private
+
+  public
+    function Logar(pLogin: ): Boolean;
+end;
+
+implementation
+
+uses
+  Login.Controller;
+
+{ TLoginModel }
+
+function TLoginModel.Logar: Boolean;
+begin
+
+end;
+
+end.

@@ -1,0 +1,28 @@
+unit Utils;
+
+interface
+
+uses
+  dataUtils;
+
+type
+  TUtils = class
+    function AjustarHora: TDataUtils;
+    function CalcularIdade(Value: String): Integer;
+  end;
+
+implementation
+
+{ TUtils }
+
+function TUtils.AjustarHora: TDataUtils;
+begin
+  Result := TDataUtils.Create;
+end;
+
+function TDataUtils.CalcularIdade(Value: String): Integer;
+begin
+  Result :=  Trunc((now - StrToDate(Value)) / 365.25);
+end;
+
+end.

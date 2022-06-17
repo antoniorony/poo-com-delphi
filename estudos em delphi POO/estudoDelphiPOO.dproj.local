@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/05/12 18:03:45.000.950,=C:\Users\T-Gamer\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/06/14 09:23:30.000.041,=C:\Users\T-Gamer\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/06/14 09:24:24.000.471,F:\Alterdata\Estudos\estudos em delphi POO\uPrincipalTela.pas=C:\Users\T-Gamer\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/06/14 09:24:24.000.471,F:\Alterdata\Estudos\estudos em delphi POO\uPrincipalTela.dfm=C:\Users\T-Gamer\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2022/06/14 09:24:35.000.937,F:\Alterdata\Estudos\estudos em delphi POO\estudoDelphiPOO.dproj=C:\Users\T-Gamer\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2022/06/14 09:26:54.000.359,=F:\Alterdata\Estudos\estudos em delphi POO\Unit1.pas</Transaction>
+    <Transaction>2022/06/14 09:27:15.000.914,F:\Alterdata\Estudos\estudos em delphi POO\Controllers\Login.Controller.pas=F:\Alterdata\Estudos\estudos em delphi POO\Unit1.pas</Transaction>
+    <Transaction>2022/06/14 09:57:57.000.408,=F:\Alterdata\Estudos\estudos em delphi POO\Unit1.pas</Transaction>
+    <Transaction>2022/06/14 09:58:11.000.890,F:\Alterdata\Estudos\estudos em delphi POO\Model\Login.Model.pas=F:\Alterdata\Estudos\estudos em delphi POO\Unit1.pas</Transaction>
+    <Transaction>2022/06/14 09:58:28.000.736,=F:\Alterdata\Estudos\estudos em delphi POO\Unit2.pas</Transaction>
+    <Transaction>2022/06/14 09:58:43.000.608,F:\Alterdata\Estudos\estudos em delphi POO\Views\Login.View.dfm=F:\Alterdata\Estudos\estudos em delphi POO\Unit2.dfm</Transaction>
+    <Transaction>2022/06/14 09:58:43.000.608,F:\Alterdata\Estudos\estudos em delphi POO\Views\Login.View.pas=F:\Alterdata\Estudos\estudos em delphi POO\Unit2.pas</Transaction>
+    <Transaction>2022/06/14 10:00:21.000.872,F:\Alterdata\Estudos\estudos em delphi POO\Controllers\Login\Login.Controller.pas=F:\Alterdata\Estudos\estudos em delphi POO\Controllers\Login.Controller.pas</Transaction>
+    <Transaction>2022/06/14 10:00:36.000.839,F:\Alterdata\Estudos\estudos em delphi POO\Model\Login\Login.Model.pas=F:\Alterdata\Estudos\estudos em delphi POO\Model\Login.Model.pas</Transaction>
+    <Transaction>2022/06/14 10:00:47.000.450,F:\Alterdata\Estudos\estudos em delphi POO\Views\Login\Login.View.dfm=F:\Alterdata\Estudos\estudos em delphi POO\Views\Login.View.dfm</Transaction>
+    <Transaction>2022/06/14 10:00:47.000.450,F:\Alterdata\Estudos\estudos em delphi POO\Views\Login\Login.View.pas=F:\Alterdata\Estudos\estudos em delphi POO\Views\Login.View.pas</Transaction>
+    <Transaction>2022/06/14 10:01:43.000.476,=F:\Alterdata\Estudos\estudos em delphi POO\Unit2.pas</Transaction>
+    <Transaction>2022/06/14 10:01:52.000.656,F:\Alterdata\Estudos\estudos em delphi POO\Views\Nova pasta\Login.View.pas=F:\Alterdata\Estudos\estudos em delphi POO\Unit2.pas</Transaction>
+    <Transaction>2022/06/14 10:01:52.000.656,F:\Alterdata\Estudos\estudos em delphi POO\Views\Nova pasta\Login.View.dfm=F:\Alterdata\Estudos\estudos em delphi POO\Unit2.dfm</Transaction>
+    <Transaction>2022/06/14 10:04:13.000.000,F:\Alterdata\Estudos\estudos em delphi POO\Views\Login\Login.View.dfm=F:\Alterdata\Estudos\estudos em delphi POO\Views\Nova pasta\Login.View.dfm</Transaction>
+    <Transaction>2022/06/14 10:04:13.000.000,F:\Alterdata\Estudos\estudos em delphi POO\Views\Login\Login.View.pas=F:\Alterdata\Estudos\estudos em delphi POO\Views\Nova pasta\Login.View.pas</Transaction>
+    <Transaction>2022/06/17 12:41:49.000.376,=F:\Alterdata\Estudos\estudos em delphi POO\Unit1.pas</Transaction>
+    <Transaction>2022/06/17 12:42:19.000.903,F:\Alterdata\Estudos\estudos em delphi POO\Unit1.pas=F:\Alterdata\Estudos\estudos em delphi POO\Controllers\Pessoas\Pessoa.pas</Transaction>
+    <Transaction>2022/06/17 12:44:55.000.827,F:\Alterdata\Estudos\estudos em delphi POO\Controllers\Pessoas\Pessoa.pas=</Transaction>
+    <Transaction>2022/06/17 14:00:41.000.757,=F:\Alterdata\Estudos\estudos em delphi POO\Unit1.pas</Transaction>
+    <Transaction>2022/06/17 14:02:35.000.064,F:\Alterdata\Estudos\estudos em delphi POO\Unit1.pas=F:\Alterdata\Estudos\estudos em delphi POO\Controllers\Pessoas\Pessoa.Controller.pas</Transaction>
+    <Transaction>2022/06/17 16:47:02.000.592,=F:\Alterdata\Estudos\estudos em delphi POO\Unit1.pas</Transaction>
+    <Transaction>2022/06/17 16:47:22.000.034,F:\Alterdata\Estudos\estudos em delphi POO\Unit1.pas=F:\Alterdata\Estudos\estudos em delphi POO\Utils\Utils.pas</Transaction>
+    <Transaction>2022/06/17 17:00:48.000.488,=F:\Alterdata\Estudos\estudos em delphi POO\Unit1.pas</Transaction>
+    <Transaction>2022/06/17 17:01:04.000.834,F:\Alterdata\Estudos\estudos em delphi POO\Unit1.pas=F:\Alterdata\Estudos\estudos em delphi POO\Utils\data.utils.pas</Transaction>
+    <Transaction>2022/06/17 17:13:07.000.986,F:\Alterdata\Estudos\estudos em delphi POO\Utils\data.utils.pas=F:\Alterdata\Estudos\estudos em delphi POO\Utils\dataUtils.pas</Transaction>
+    <Transaction>2022/06/17 20:25:45.517,=F:\Alterdata\Estudos\estudos em delphi POO\Unit2.pas</Transaction>
+    <Transaction>2022/06/17 20:26:06.319,F:\Alterdata\Estudos\estudos em delphi POO\Views\Pessoa\Pessoa.view.pas=F:\Alterdata\Estudos\estudos em delphi POO\Unit2.pas</Transaction>
+    <Transaction>2022/06/17 20:26:06.319,F:\Alterdata\Estudos\estudos em delphi POO\Views\Pessoa\Pessoa.view.dfm=F:\Alterdata\Estudos\estudos em delphi POO\Unit2.dfm</Transaction>
+    <Transaction>2022/06/17 20:37:17.813,F:\Alterdata\Estudos\estudos em delphi POO\Utils\dataUtils.pas=</Transaction>
+  </Transactions>
+</BorlandProject>

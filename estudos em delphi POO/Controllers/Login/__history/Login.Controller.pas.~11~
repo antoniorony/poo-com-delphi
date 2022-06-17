@@ -1,0 +1,41 @@
+unit Login.Controller;
+
+interface
+type TLoginController = Class
+  private
+    FUserName: String;
+    FPassword: String;
+
+  public
+    procedure SetUser(pUser: string);
+    function GetUser(): string;
+    procedure SetPassword(pPassword: string);
+    function GetPassWord(): string;
+
+
+End;
+implementation
+
+{ TLoginController }
+
+function TLoginController.GetPassWord: string;
+begin
+  Result:= FPassword;
+end;
+
+function TLoginController.GetUser: string;
+begin
+
+end;
+
+procedure TLoginController.SetPassword(pPassword: string);
+begin
+  FPassword := pPassword;
+end;
+
+procedure TLoginController.SetUser(pUser: string);
+begin
+  FUserName := pUser;
+end;
+
+end.

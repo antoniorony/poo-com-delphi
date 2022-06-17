@@ -1,0 +1,21 @@
+unit dataUtils;
+
+interface
+
+uses
+  System.SysUtils;
+
+type
+  TDataUtils = class
+    function CalcularIdade(Value: String): Integer;
+  end;
+implementation
+
+{ TDataUtils }
+
+function TDataUtils.CalcularIdade(Value: String): Integer;
+begin
+  Result :=  Trunc((now - StrToDate(Value)) / 365.25);
+end;
+
+end.

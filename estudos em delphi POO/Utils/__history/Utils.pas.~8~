@@ -1,0 +1,22 @@
+unit Utils;
+
+interface
+
+uses
+  dataUtils;
+
+type
+  TUtils = class
+    function AjustarHora: TDataUtils;
+  end;
+
+implementation
+
+{ TUtils }
+
+function TUtils.AjustarHora: TDataUtils;
+begin
+
+end;
+
+end.

@@ -1,0 +1,11 @@
+unit data.utils;
+
+interface
+type
+  TDataUtils = class
+    private
+    public
+  end;
+implementation
+
+end.
