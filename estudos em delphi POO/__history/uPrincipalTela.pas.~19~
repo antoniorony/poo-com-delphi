@@ -38,6 +38,7 @@ begin
   frmLoginView := TfrmLoginView.Create(nil);
   try
     frmLoginView.ShowModal();
+
   finally
     frmLoginView.Free;
   end;
@@ -48,8 +49,9 @@ var
   lPolimorfismo: TfrmPoli;
 begin
   lPolimorfismo:= Tfrmpoli.Create(nil);
+
   try
-    lPolimorfismo.ShowModal();
+
   finally
     lPolimorfismo.Free;
   end;

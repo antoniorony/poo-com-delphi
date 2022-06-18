@@ -111,10 +111,15 @@
             <Form>frmLoginView</Form>
             <FormType>dfm</FormType>
         </DCCReference>
-        <DCCReference Include="Controllers\Pessoas\Pessoa.Controller.pas"/>
+        <DCCReference Include="Controllers\Pessoas\PessoaController.pas"/>
         <DCCReference Include="Utils\Utils.pas"/>
         <DCCReference Include="Views\Pessoa\Pessoa.view.pas">
             <Form>frmPessoa</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="Controllers\Pessoas\Clientes\ClienteController.pas"/>
+        <DCCReference Include="Polimorfismo\frmPolimorfismo.pas">
+            <Form>frmPoli</Form>
             <FormType>dfm</FormType>
         </DCCReference>
         <BuildConfiguration Include="Release">
@@ -145,7 +150,7 @@
                 </Excluded_Packages>
             </Delphi.Personality>
             <Deployment Version="3">
-                <DeployFile LocalName="Win32\Debug\estudoDelphiPOO.exe" Configuration="Debug" Class="ProjectOutput">
+                <DeployFile LocalName="..\..\estudos em delphi POO\Win32\Debug\estudoDelphiPOO.exe" Configuration="Debug" Class="ProjectOutput">
                     <Platform Name="Win32">
                         <RemoteName>estudoDelphiPOO.exe</RemoteName>
                         <Overwrite>true</Overwrite>

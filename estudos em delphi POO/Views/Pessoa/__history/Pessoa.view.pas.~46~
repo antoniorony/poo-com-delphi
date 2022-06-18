@@ -68,14 +68,6 @@ begin
     lPessoa.Nome := 'Rony';
     lPessoa.FDataNascimento := '10/10/1995';
     mmo1.Lines.Add('Nome '+lPessoa.Nome + ' - ' + lPessoa.FIdade.ToString);
-    //Cliente herda de pessoa, mas possui um novo campo, o valor de crédito.
-    lCliente.Nome := 'Antonio';
-    lCliente.FDataNascimento := '07/06/1995';
-    //lCliente.ValorCredito:= 7000.00;
-    mmo1.Lines.Add('Nome '+lCliente.Nome + ' - ' +
-                    lCliente.FIdade.ToString + ' - ' +
-                    CurrToStr(lCliente.ValorCredito));
-
   finally
     lPessoa.Free;
     lCliente.Free;

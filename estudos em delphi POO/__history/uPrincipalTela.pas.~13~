@@ -4,7 +4,7 @@ interface
 
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
-  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Menus, Vcl.ExtCtrls;
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Menus, Vcl.ExtCtrls, frmPolimorfismo;
 
 type
   TForm1 = class(TForm)
@@ -29,7 +29,7 @@ var
 implementation
 
 uses
-  Login.View, frmPolimorfismo;
+  Login.View;
 
 {$R *.dfm}
 
@@ -38,6 +38,7 @@ begin
   frmLoginView := TfrmLoginView.Create(nil);
   try
     frmLoginView.ShowModal();
+
   finally
     frmLoginView.Free;
   end;
@@ -47,12 +48,7 @@ procedure TForm1.Polimorfismo1Click(Sender: TObject);
 var
   lPolimorfismo: TfrmPoli;
 begin
-  lPolimorfismo:= Tfrmpoli.Create(nil);
-  try
-    lPolimorfismo.ShowModal();
-  finally
-    lPolimorfismo.Free;
-  end;
+
 end;
 
 end.

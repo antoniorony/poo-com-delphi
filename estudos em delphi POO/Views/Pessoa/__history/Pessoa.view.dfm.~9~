@@ -31,13 +31,4 @@
     TabOrder = 1
     OnClick = btnHerançaClick
   end
-  object mmo1: TMemo
-    Left = 8
-    Top = 47
-    Width = 179
-    Height = 226
-    Lines.Strings = (
-      'mmo1')
-    TabOrder = 2
-  end
 end

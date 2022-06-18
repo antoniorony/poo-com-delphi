@@ -1,0 +1,19 @@
+unit ClienteController;
+
+interface
+
+uses
+  PessoaController;
+
+type
+  TCliente = class(TPessoa)
+    private
+      FValorDeCredito: Currency;
+    public
+      property ValorCredito: Currency read FValorDeCredito write FValorDeCredito;
+
+  end;
+
+implementation
+
+end.

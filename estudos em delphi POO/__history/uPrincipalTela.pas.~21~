@@ -38,6 +38,7 @@ begin
   frmLoginView := TfrmLoginView.Create(nil);
   try
     frmLoginView.ShowModal();
+
   finally
     frmLoginView.Free;
   end;

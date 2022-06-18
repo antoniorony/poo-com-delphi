@@ -37,10 +37,6 @@ object Form1: TForm1
           Caption = 'Setores'
         end
       end
-      object Polimorfismo1: TMenuItem
-        Caption = 'Polimorfismo'
-        OnClick = Polimorfismo1Click
-      end
     end
   end
 end
