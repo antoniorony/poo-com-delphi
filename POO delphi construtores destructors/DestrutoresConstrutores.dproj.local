@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/06/18 13:10:51.000.063,=C:\Users\T-Gamer\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2022/06/18 13:11:39.000.930,C:\Users\T-Gamer\Documents\Embarcadero\Studio\Projects\Unit2.dfm=F:\Alterdata\Estudos\poo-com-delphi\POO delphi construtores destructors\Construtores.dfm</Transaction>
+    <Transaction>2022/06/18 13:11:39.000.930,C:\Users\T-Gamer\Documents\Embarcadero\Studio\Projects\Unit2.pas=F:\Alterdata\Estudos\poo-com-delphi\POO delphi construtores destructors\Construtores.pas</Transaction>
+    <Transaction>2022/06/18 13:12:13.000.027,C:\Users\T-Gamer\Documents\Embarcadero\Studio\Projects\Project2.dproj=F:\Alterdata\Estudos\poo-com-delphi\POO delphi construtores destructors\DestrutoresConstrutores.dproj</Transaction>
+    <Transaction>2022/06/18 13:58:32.000.482,=F:\Alterdata\Estudos\poo-com-delphi\POO delphi construtores destructors\Unit1.pas</Transaction>
+    <Transaction>2022/06/18 13:58:41.000.496,F:\Alterdata\Estudos\poo-com-delphi\POO delphi construtores destructors\Unit1.pas=F:\Alterdata\Estudos\poo-com-delphi\POO delphi construtores destructors\Pessoa.pas</Transaction>
+    <Transaction>2022/06/18 13:58:52.000.062,=F:\Alterdata\Estudos\poo-com-delphi\POO delphi construtores destructors\Unit1.pas</Transaction>
+    <Transaction>2022/06/18 13:58:55.000.769,F:\Alterdata\Estudos\poo-com-delphi\POO delphi construtores destructors\Unit1.pas=F:\Alterdata\Estudos\poo-com-delphi\POO delphi construtores destructors\Cliente.pas</Transaction>
+    <Transaction>2022/06/18 13:59:41.000.703,=F:\Alterdata\Estudos\poo-com-delphi\POO delphi construtores destructors\Unit1.pas</Transaction>
+    <Transaction>2022/06/18 13:59:45.000.154,F:\Alterdata\Estudos\poo-com-delphi\POO delphi construtores destructors\Unit1.pas=F:\Alterdata\Estudos\poo-com-delphi\POO delphi construtores destructors\Utils.pas</Transaction>
+    <Transaction>2022/06/19 19:33:15.245,=F:\Alterdata\Estudos\poo-com-delphi\POO delphi construtores destructors\Unit1.pas</Transaction>
+    <Transaction>2022/06/19 19:33:22.191,F:\Alterdata\Estudos\poo-com-delphi\POO delphi construtores destructors\Endereco.pas=F:\Alterdata\Estudos\poo-com-delphi\POO delphi construtores destructors\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{AD2D3A12-5288-443A-A8FF-3AE28B6A0EA9}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="..\estudos em delphi POO\estudoDelphiPOO.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="DestrutoresConstrutores.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="estudoDelphiPOO">
+        <MSBuild Projects="..\estudos em delphi POO\estudoDelphiPOO.dproj"/>
+    </Target>
+    <Target Name="estudoDelphiPOO:Clean">
+        <MSBuild Projects="..\estudos em delphi POO\estudoDelphiPOO.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="estudoDelphiPOO:Make">
+        <MSBuild Projects="..\estudos em delphi POO\estudoDelphiPOO.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DestrutoresConstrutores">
+        <MSBuild Projects="DestrutoresConstrutores.dproj"/>
+    </Target>
+    <Target Name="DestrutoresConstrutores:Clean">
+        <MSBuild Projects="DestrutoresConstrutores.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DestrutoresConstrutores:Make">
+        <MSBuild Projects="DestrutoresConstrutores.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="estudoDelphiPOO;DestrutoresConstrutores"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="estudoDelphiPOO:Clean;DestrutoresConstrutores:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="estudoDelphiPOO:Make;DestrutoresConstrutores:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

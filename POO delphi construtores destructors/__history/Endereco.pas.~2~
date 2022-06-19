@@ -1,0 +1,14 @@
+unit Endereco;
+
+interface
+type
+  TEndereco = class
+    private
+      FLogradouro: String
+    public
+      property Logradouro: String read FLogradouro write FLogradouro;
+    end;
+
+implementation
+
+end.
